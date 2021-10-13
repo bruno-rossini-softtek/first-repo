@@ -28,6 +28,7 @@ pipeline {
           sh 'ls -last'
           sh 'javac HelloWorld.java'
           sh 'java HelloWorld'
+          sh 'ls -last'
         }
         container('node') {
           sh 'npm version'
