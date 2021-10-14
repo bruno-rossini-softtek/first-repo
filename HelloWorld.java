@@ -1,5 +1,5 @@
 public class HelloWorld {
   public static void main(String[] args) {
-    System.out.println("Hola mundo 0935!");
+    System.out.println("Hola mundo 10AM!");
   }
 }
